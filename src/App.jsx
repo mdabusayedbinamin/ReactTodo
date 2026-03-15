@@ -37,7 +37,7 @@ const App = () => {
   return (
     <div>
       <h2>Todo List</h2>
-      <h2>Test vercel </h2>
+      
       
       <input type="text" value={item} onChange={(e) =>{setItem(e.target.value)}} />
       {
